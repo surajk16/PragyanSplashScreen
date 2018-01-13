@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delta.suraj.splash.SplashActivity"
+    android:background="@color/splashBackground">
+
+
+    <ImageView
+        android:id="@+id/inner_big_arc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/inner_big_arc"
+        android:alpha="0.8"/>
+
+    <ImageView
+        android:id="@+id/inner_cuts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/inner_cuts"
+        android:alpha="0.9"/>
+
+    <ImageView
+        android:id="@+id/inner_dashed_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/inner_dashed_circle" />
+
+    <ImageView
+        android:id="@+id/outer_cuts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/outer_cuts" />
+
+    <ImageView
+        android:id="@+id/outer_dashed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/outer_dashed" />
+
+    <ImageView
+        android:id="@+id/outermost_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/outermost_circle"/>
+
+
+    <ImageView
+        android:id="@+id/purple_arc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/purple_arc" />
+
+    <ImageView
+        android:id="@+id/dashed_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dashed_circle" />
+
+    <ImageView
+        android:id="@+id/inner_striped_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/inner_striped_circle" />
+
+    <ImageView
+        android:id="@+id/dashed_middle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dashed_middle" />
+
+    <ImageView
+        android:id="@+id/intermediates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/intermediates" />
+
+    <ImageView
+        android:id="@+id/lines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/lines"
+        android:alpha="0.8"/>
+
+    <ImageView
+        android:id="@+id/pragyan_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pragyan_logo" />
+
+    <ImageView
+        android:id="@+id/gradient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/gradient" />
+
+</FrameLayout>
